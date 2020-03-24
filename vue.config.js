@@ -2,7 +2,7 @@ module.exports = {
   lintOnSave: true,
   publicPath: '/',
   outputDir: 'docs',
-  assetsDir: '/',
+  assetsDir: '',
   runtimeCompiler: false,
   productionSourceMap: true,
   parallel: true,
