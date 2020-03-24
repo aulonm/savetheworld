@@ -1,0 +1,7 @@
+/build/
+/config/
+/dist/
+/docs/
+/src/coverageReport
+/src/config/geodata
+/server/server.js

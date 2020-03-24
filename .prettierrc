@@ -1,0 +1,8 @@
+{
+  "semi": true,
+  "proseWrap": "always",
+  "eslintIntegration": true,
+  "printWidth": 120,
+  "trailingComma": "es5",
+  "singleQuote": true
+}
