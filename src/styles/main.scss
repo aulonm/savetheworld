@@ -2,7 +2,6 @@
 @import 'fonts';
 @import 'variables';
 
-
 *,
 ::before,
 ::after {
@@ -52,4 +51,19 @@ select {
 /* You could apply this selector only to buttons, if you wanted. */
 body.using-mouse :focus {
   outline: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+
+  @media screen and (min-width: 480px) {
+    padding: 0 1rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 2rem;
+  }
 }

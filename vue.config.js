@@ -3,11 +3,4 @@ module.exports = {
   publicPath: '/',
   outputDir: 'docs',
   assetsDir: '',
-  runtimeCompiler: false,
-  productionSourceMap: true,
-  parallel: true,
-
-  css: {
-    sourceMap: true,
-  },
 };
